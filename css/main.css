@@ -42,16 +42,6 @@ img {
   display: flex;
 }
 
-.logo {
-  color: var(--title-text-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-
-  margin-right: 70px;
-}
-
 .logo-accent,
 .logo:focus,
 .menu-link:focus,
@@ -61,6 +51,41 @@ img {
 .header-tellandmail:hover,
 .menu-link.current {
   color: var(--accent-color);
+}
+
+.page-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: var(--primary-white-color);
+}
+
+.page-header .flexbox {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  margin-right: 93px;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .menu-link,
@@ -80,37 +105,18 @@ img {
   font-style: normal;
 }
 
-.menu-list {
-  display: flex;
-}
-
-.menu-item:not(:last-child) {
-  margin-right: 40px;
-}
-
-.page-header {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  background: var(--primary-white-color);
-}
-
-.page-header .flexbox {
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.page-header .header-tellandmail {
-  margin-right: 40px;
-}
-
-.navigation {
+.contacts-nav {
   display: flex;
   align-items: center;
-  margin-right: auto;
+}
+
+.header-tellandmail {
+  margin-right: 50px;
 }
 
 .hero {
   text-align: center;
+  background: var(--footer-background-color);
 }
 
 .hero-title {
