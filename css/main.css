@@ -64,6 +64,7 @@ h4 {
   padding-top: 32px;
   padding-bottom: 32px;
   background: var(--primary-white-color);
+  border: 1px solid #ececec;
 }
 
 .page-header .flexbox {
@@ -171,7 +172,7 @@ h4 {
 }
 
 .advantage-section {
-  background-color: var(--main-background-color);
+  background-color: var(--primary-white-color);
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -202,7 +203,7 @@ h4 {
 }
 
 .whatwedo-section {
-  background-color: var(--main-background-color);
+  background-color: var(--primary-white-color);
   padding-bottom: 94px;
 }
 
@@ -269,7 +270,8 @@ h4 {
 }
 
 .portfolio-main {
-  background-color: var(--main-background-color);
+  background-color: var(--primary-white-color);
+
   padding-top: 100px;
   padding-bottom: 94px;
 }
