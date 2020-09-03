@@ -60,14 +60,14 @@ h4 {
   color: var(--accent-color);
 }
 
-.page-header {
+.header {
   padding-top: 32px;
   padding-bottom: 32px;
   background: var(--primary-white-color);
   border: 1px solid #ececec;
 }
 
-.page-header .flexbox {
+.header .flexbox {
   justify-content: flex-end;
   align-items: center;
 }
@@ -78,7 +78,7 @@ h4 {
   margin-right: auto;
 }
 
-.page-header .logo {
+.header .logo {
   margin-right: 93px;
 }
 
@@ -110,19 +110,19 @@ h4 {
   color: var(--title-text-color);
 }
 
-.header-tellandmail {
-  color: var(--primary-text-color);
-  font-style: normal;
-}
-
-.contacts-nav {
+.contacts-list {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .header-tellandmail {
-  margin-left: 50px;
+  color: var(--primary-text-color);
+  font-style: normal;
 }
 
 .hero {
@@ -269,7 +269,7 @@ h4 {
   margin-top: 10px;
 }
 
-.portfolio-main {
+.portfolio {
   background-color: var(--primary-white-color);
 
   padding-top: 100px;
@@ -356,18 +356,18 @@ h4 {
   margin-right: 24px;
 }
 
-.page-footer {
+.footer {
   background-color: var(--footer-background-color);
 
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.page-footer .flexbox {
+.footer .flexbox {
   flex-direction: column;
 }
 
-.page-footer .logo {
+.footer .logo {
   margin-bottom: 20px;
 }
 
